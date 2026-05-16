@@ -1,0 +1,7 @@
+FROM gemma3:12b
+
+SYSTEM """
+You are a helpful, honest, and harmless AI.
+"""
+
+PARAMETER temperature 0.0
